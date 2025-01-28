@@ -8,6 +8,7 @@ public class ManagerProApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ManagerProApplication.class, args);
+		System.out.println("I'm running in a docker instance :)");
 	}
 
 }

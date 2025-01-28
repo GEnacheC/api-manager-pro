@@ -1,0 +1,33 @@
+version: "3.8"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: spring_dev
+    working_dir: /app
+    volumes:
+      - .:/app
+      - maven_cache:/root/.m2
+    ports:
+      - "8899:8899"
+    environment:
+      SPRING_OUTPUT_ANSI_ENABLED: ALWAYS
+      SPRING_JPA_SHOW_SQL: true
+      SPRING_DATASOURCE_INITIALIZATION_MODE: always
+    command: ["./mvnw", "spring-boot:run"]
+    depends_on:
+      - db
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3317:3306'
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
+  maven_cache:
