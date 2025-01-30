@@ -1,9 +1,9 @@
-FROM openjdk:17-jdk-slim
-
-RUN apt-get update && apt-get install -y maven
+FROM openjdk:17-jdk-alpine
 
 WORKDIR /app
 
+COPY target/manager-pro.jar app.jar
+
 EXPOSE 8899
 
-CMD ["./mvnw", "spring-boot:run"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
