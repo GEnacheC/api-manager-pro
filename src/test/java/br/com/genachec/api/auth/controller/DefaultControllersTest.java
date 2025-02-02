@@ -1,4 +1,4 @@
-package br.com.api.manager.pro.controller;
+package br.com.genachec.api.auth.controller;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -16,8 +16,8 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import br.com.api.manager.pro.model.request.AuthRequest;
-import br.com.api.manager.pro.utils.LoadingEffect;
+import br.com.genachec.api.auth.model.request.AuthRequest;
+import br.com.genachec.api.auth.utils.LoadingEffect;
 
 
 @SpringBootTest

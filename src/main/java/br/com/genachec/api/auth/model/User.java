@@ -1,4 +1,4 @@
-package br.com.api.manager.pro.model;
+package br.com.genachec.api.auth.model;
 
 
 import jakarta.persistence.*;

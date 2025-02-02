@@ -1,8 +1,8 @@
-package br.com.api.manager.pro.service;
+package br.com.genachec.api.auth.service;
 
 
-import br.com.api.manager.pro.model.User;
-import br.com.api.manager.pro.repository.UserRepository;
+import br.com.genachec.api.auth.model.User;
+import br.com.genachec.api.auth.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

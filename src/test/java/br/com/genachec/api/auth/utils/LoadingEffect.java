@@ -1,4 +1,4 @@
-package br.com.api.manager.pro.utils;
+package br.com.genachec.api.auth.utils;
 
 /**
  * <h3>Handle with loading effects prints</h3>

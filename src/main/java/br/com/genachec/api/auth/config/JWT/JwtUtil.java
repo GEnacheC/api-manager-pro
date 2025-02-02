@@ -1,4 +1,4 @@
-package br.com.api.manager.pro.config.JWT;
+package br.com.genachec.api.auth.config.JWT;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

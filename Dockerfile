@@ -2,7 +2,7 @@ FROM openjdk:17-jdk-alpine
 
 WORKDIR /app
 
-COPY target/manager-pro.jar app.jar
+COPY target/api-auth.jar app.jar
 
 EXPOSE 8899
 

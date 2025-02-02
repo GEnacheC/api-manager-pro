@@ -1,6 +1,6 @@
-package br.com.api.manager.pro.repository;
+package br.com.genachec.api.auth.repository;
 
-import br.com.api.manager.pro.model.User;
+import br.com.genachec.api.auth.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package br.com.api.manager.pro.config.JWT;
+package br.com.genachec.api.auth.config.JWT;
 
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

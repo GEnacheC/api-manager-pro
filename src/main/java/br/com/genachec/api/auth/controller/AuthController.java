@@ -1,4 +1,4 @@
-package br.com.api.manager.pro.controller;
+package br.com.genachec.api.auth.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.api.manager.pro.config.JWT.JwtUtil;
-import br.com.api.manager.pro.model.request.AuthRequest;
+import br.com.genachec.api.auth.config.JWT.JwtUtil;
+import br.com.genachec.api.auth.model.request.AuthRequest;
 
 @RestController
 @RequestMapping("/api/auth")

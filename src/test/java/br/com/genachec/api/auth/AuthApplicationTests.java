@@ -1,10 +1,10 @@
-package br.com.api.manager.pro;
+package br.com.genachec.api.auth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class AuthApplicationTests {
 
 	@Test
 	void contextLoads() {

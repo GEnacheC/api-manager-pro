@@ -1,4 +1,4 @@
-package br.com.api.manager.pro.model.request;
+package br.com.genachec.api.auth.model.request;
 
 
 public class AuthRequest {

@@ -1,4 +1,4 @@
-# API Manager Pro
+# API Auth
 This repository is a project designed to enhance my skills with Spring Boot, Docker, JUnit, and Mockito. It serves as a practical example of building a RESTful API with modern development tools and practices.
 ## Prerequisites
 Before running the project, ensure you have the following installed:
